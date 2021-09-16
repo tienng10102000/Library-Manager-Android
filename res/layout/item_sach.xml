@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/itemMaSach"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mã sách"/>
+    <TextView
+        android:id="@+id/itemTenSach"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tên sách"/>
+    <TextView
+        android:id="@+id/itemNgayXB"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ngày XB"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:background="#8BC34A"
+        android:text="Thêm mới tác giả"/>
+    <TableRow
+        android:layout_width="match_parent">
+        <TextView
+            android:text="Mã tác giả: "/>
+        <EditText
+            android:id="@+id/editMaTacGia"
+            android:hint="Nhập vào mã tác giả"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent">
+        <TextView android:text="Tên tác giả: "/>
+        <EditText
+            android:id="@+id/editTenTacGia"
+            android:hint="Nhập vào tên tác giả"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/btnXoaTrang"
+            android:text="Xóa trắng"/>
+        <Button
+            android:id="@+id/btnLuuTacGia"
+            android:text="Lưu tác giả"/>
+    </TableRow>
+
+</TableLayout>

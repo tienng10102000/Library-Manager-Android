@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="QUẢN LÝ SÁCH"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#4CAF50"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:gravity="center">
+    <Button
+        android:id="@+id/btnThemTacGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm tác giả"/>
+    <Button
+        android:id="@+id/btnDanhSachTacGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sách tác giả"/>
+    <Button
+        android:id="@+id/btnQuanLySach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý sách"/>
+    </LinearLayout>
+</LinearLayout>
